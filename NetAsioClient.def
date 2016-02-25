@@ -1,0 +1,7 @@
+LIBRARY	"NetAsioClient"
+
+EXPORTS
+	SendPacket	
+	SendPacketSAC
+	SendPacketSACFile
+	

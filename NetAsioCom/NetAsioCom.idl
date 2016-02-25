@@ -1,0 +1,37 @@
+// NetAsioCom.idl : NetAsioCom의 IDL 소스입니다.
+//
+
+// 이 파일은 MIDL 도구에 의해 처리되어
+// 형식 라이브러리(NetAsioCom.tlb) 및 마샬링 코드가 생성됩니다.
+
+import "oaidl.idl";
+import "ocidl.idl";
+
+[
+	object,
+	uuid(11AE7208-FFF5-45B4-8BC4-4B9B6981E3C3),
+	dual,
+	nonextensible,
+	helpstring("ISocketClient 인터페이스"),
+	pointer_default(unique)
+]
+interface ISocketClient : IDispatch{
+	[id(1), helpstring("메서드 SendPacket")] HRESULT SendPacket([in] BSTR bstrIP, [in] BSTR bstrPort, [in] long lTimeoutSecond, [in] BSTR bstrMessage, [out] VARIANT * varRetMessage, [out,retval] VARIANT * pReturn);
+};
+[
+	uuid(AA825181-B7F1-46A2-9F78-7F90A0897998),
+	version(1.0),
+	helpstring("NetAsioCom 1.0 형식 라이브러리")
+]
+library NetAsioComLib
+{
+	importlib("stdole2.tlb");
+	[
+		uuid(12467F5C-0E93-425C-8377-F4F30306A0C3),
+		helpstring("SocketClient Class")
+	]
+	coclass SocketClient
+	{
+		[default] interface ISocketClient;
+	};
+};

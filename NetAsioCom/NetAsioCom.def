@@ -1,0 +1,10 @@
+; NetAsioCom.def : 모듈 매개 변수를 선언합니다.
+
+LIBRARY      "NetAsioCom.DLL"
+
+EXPORTS
+	DllCanUnloadNow		PRIVATE
+	DllGetClassObject	PRIVATE
+	DllRegisterServer	PRIVATE
+	DllUnregisterServer	PRIVATE
+	DllInstall		PRIVATE

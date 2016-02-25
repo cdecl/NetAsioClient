@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetAsioCom", "NetAsioCom.vcproj", "{151B4134-BA64-431D-A9A5-4B29431A0593}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetAsioComPS", "NetAsioComPS.vcproj", "{50D87BF1-D298-476F-8779-B0BF5DE0F9E4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{151B4134-BA64-431D-A9A5-4B29431A0593} = {151B4134-BA64-431D-A9A5-4B29431A0593}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{151B4134-BA64-431D-A9A5-4B29431A0593}.Debug|Win32.ActiveCfg = Debug|Win32
+		{151B4134-BA64-431D-A9A5-4B29431A0593}.Debug|Win32.Build.0 = Debug|Win32
+		{151B4134-BA64-431D-A9A5-4B29431A0593}.Release|Win32.ActiveCfg = Release|Win32
+		{151B4134-BA64-431D-A9A5-4B29431A0593}.Release|Win32.Build.0 = Release|Win32
+		{50D87BF1-D298-476F-8779-B0BF5DE0F9E4}.Debug|Win32.ActiveCfg = Debug|Win32
+		{50D87BF1-D298-476F-8779-B0BF5DE0F9E4}.Release|Win32.ActiveCfg = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
