@@ -64,10 +64,10 @@ public:
 
 	int WaitForResponse()
 	{
-		socket_.get_io_service().reset();
+		((boost::asio::io_context&)socket_.get_executor().context()).reset();
 		//socket_.io_service().reset();
 
-		while (socket_.get_io_service().run_one()) 
+		while (((boost::asio::io_context&)socket_.get_executor().context()).run_one())
 		{
 			if (nResponse_) break;
 		}

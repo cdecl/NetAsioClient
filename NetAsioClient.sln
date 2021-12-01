@@ -1,20 +1,31 @@
 ﻿
-Microsoft Visual Studio Solution File, Format Version 10.00
-# Visual Studio 2008
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetAsioClient", "NetAsioClient.vcproj", "{6AD641C4-8E44-463D-A944-0E5D52A00DD5}"
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31424.327
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NetAsioClient", "NetAsioClient.vcxproj", "{6AD641C4-8E44-463D-A944-0E5D52A00DD5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{6AD641C4-8E44-463D-A944-0E5D52A00DD5}.Debug|Win32.ActiveCfg = Debug|Win32
 		{6AD641C4-8E44-463D-A944-0E5D52A00DD5}.Debug|Win32.Build.0 = Debug|Win32
+		{6AD641C4-8E44-463D-A944-0E5D52A00DD5}.Debug|x64.ActiveCfg = Debug|x64
+		{6AD641C4-8E44-463D-A944-0E5D52A00DD5}.Debug|x64.Build.0 = Debug|x64
 		{6AD641C4-8E44-463D-A944-0E5D52A00DD5}.Release|Win32.ActiveCfg = Release|Win32
 		{6AD641C4-8E44-463D-A944-0E5D52A00DD5}.Release|Win32.Build.0 = Release|Win32
+		{6AD641C4-8E44-463D-A944-0E5D52A00DD5}.Release|x64.ActiveCfg = Release|x64
+		{6AD641C4-8E44-463D-A944-0E5D52A00DD5}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0F5D9EF4-32D9-4963-B686-CE4694DDAF06}
 	EndGlobalSection
 EndGlobal
